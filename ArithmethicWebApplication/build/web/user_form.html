@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User Details Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Use Details</h1>
+        <p>
+            Please enter you details below:
+        </p>
+        <form action="CreateUserServlet.do" method="POST">
+            <table>
+                <tr>
+                    <td>Username :</td>
+                    <td><input type="text" name="name" required=""></td>
+                </tr>
+                <tr>
+                    <td>Surname :</td>
+                    <td><input type="text" name="surname" required=""></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="SUBMIT"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
+
